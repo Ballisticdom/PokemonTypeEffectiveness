@@ -148,7 +148,7 @@ def TypePrint(x):
             interaction_types.append(i)
     
     #Find counts for Type resistances/weaknesses
-    #Count: +2 = 4x damage, +1 = 2x damage, 0 = neutral damage, -1 = 1/2x damage, -2 = 1/4x damage
+    #Count: +2 = 256% damage, +1 = 160% damage, 0 = neutral damage, -1 = 39% damage, -2 = 24% damage
     type_counts = []
     for i in interaction_types:
         count = 0
